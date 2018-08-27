@@ -29,6 +29,11 @@
     flex-direction: column;
   }
 }
+@media (max-height: 250px) {
+  .container {
+    flex-direction: column;
+  }
+}
 div  {
      margin : 5px ;
      background-color : lightblue ;}
