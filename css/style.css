@@ -17,6 +17,11 @@
   margin: 10px;
   flex: 1;
   background-color: #a8e58c;
+  text-align: center;
+}
+.box3 {
+  background-color: #f8e58c;
+  text-align: center;
 }
 
 .container {
@@ -29,11 +34,34 @@
   }
 }
 
-.radius_box {
-  border: solid 2px skyblue;
-  width: 50%;
+.box1 {
+  text-align: center;
   margin: 10px;
+}
+
+
+.box2 {
+  text-align: center;
+  padding:20px 30% 50px 30% ;
+  margin: 10px ;
   flex: 1;
-    background-color: #f8e58c;
+  background-color: #a8e58c;
+}
+  .box2 a:hover
+{
+    background-color: #0f949b;
+}
+
+
+
+.radius_box {
+  text-align: center;
+  border: solid 2px skyblue;
+  padding:5%;
+  margin-top: 10px ;
+  height: 20px;
+  background-color: #f8e58c;
   border-radius: 10px;
+  display: block;
+  text-decoration: none;
 }
